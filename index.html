@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Netflix</title>
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <img class="logo" src="" alt="">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Latest</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <img src="img/filme-logo.png" class="titulo">
+                <p class="descricao">Elliot é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê em uma encruzilhada quando é recrutado para destruir a firma que ele é pago para proteger.</p>
+
+                <div class="botoes">
+                    <a href="#abrir-modal_play">
+                        <button role="button" class="botao" id="play">
+                            <i class="fas fa-play"></i>
+                            Play
+                        </button>
+                    </a>
+                    <a href="#abrir-modal_info">
+                        <button role="button" class=botao id="more-info">
+                            <i class="fas fa-info-circle"></i>
+                            More Info
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="abrir-modal_play" class="modal">
+        <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xIBiJ_SzJTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="abrir-modal_info" class="modal">
+        <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <img src="img/filme-logo.png" width="200" alt="Mr. Robot">
+            <h3>Informações Técnicas</h3>
+            <p>Gênero: Drama, Thriller Tecnológico, Thriler Psicológico</p>
+            <p>Situação: Finalizado - 4 temporadas</p>
+            <p>Criador(es): Sam Esmail</p>
+            <p>Direto(es): Sam Esmail</p>
+            <p>Produtore(es): Steve Golin, Chad, Hamilton, Igor Srubschchik</p>
+            <h3>Elenco</h3>
+            <p>Rami Malek, Carly, Chaikin, Portia Doubleday, Martin Wallstrom, Christian Slater</p>
+        </div>
+    </div>
+
+    <!-- Carrosel -->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://youtu.be/NbgDMYy9mzM" target="_blank">
+                    <img class="box-filme" src="img/mini1.jpg" alt="Takedown">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/exe1fRcW8X8" target="_blank">
+                    <img class="box-filme" src="img/mini2.jpg" alt="Piratas do Vale do Silício">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/nx2u8iUpzPo" target="_blank">
+                    <img class="box-filme" src="img/mini3.jpg" alt="Jobs">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/Q2xrQ5U0Tbo" target="_blank">
+                    <img class="box-filme" src="img/mini4.jpg" alt="O Jogo da Imitação">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/wsly1v6o3og" target="_blank">
+                    <img class="box-filme" src="img/mini5.jpg" alt="Snowden: Herói ou traidor">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/b8vEV778GDo" target="_blank">
+                    <img class="box-filme" src="img/mini6.jpg" alt="Invasores: Nenhum sistema está à salvo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="http://www.adorocinema.com/filmes/filme-140296/trailer-18948683/?jwsource=cl" target="_blank">
+                    <img class="box-filme" src="img/mini7.jpg" alt="Os homens que não amavam as mulheres">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/YNrbyRA5d14" target="_blank">
+                    <img class="box-filme" src="img/mini8.jpg" alt="A rede social">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/iJNvxWemhI4" target="_blank">
+                    <img class="box-filme" src="img/mini9.jpg" alt="Os estagiários">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/2KnZac176Hs" target="_blank">
+                    <img class="box-filme" src="img/mini10.jpg" alt="Matrix">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="https://youtu.be/8ag5PKpCBdI" target="_blank">
+                    <img class="box-filme" src="img/mini11.jpg" alt="A Queima-Roupa">
+                </a>
+            </div>
+        </div>
+       
+
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <p>Copyright © 2020 - by Paulo Rodrigo</p>
+        <p>
+            <a href="https://www.linkedin.com/in/paulo-rodrigo-a80081a9" target="_blank"><i class="fab fa-linkedin"></i></a> | 
+            <a href="https://github.com/Paulo-Rodrigo" target="_blank"><i class="fab fa-github"></i></a>
+        </p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/80f6eb9c1c.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+
+</body>
+</html>
